@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: OTDServiceDiscovery
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+
+server:
+  port: 8881
